@@ -2,6 +2,6 @@
 
 ## Setup
 Replace All (CASE SENSITIVE):
-- `{{micro-name}}` ex: hermes-user
-- `{{microname}}` ex: hermes
-- `{{5001}}` port ex: 5001
+- `{{athena-ideas}}` ex: hermes-user
+- `{{athena}}` ex: hermes
+- `{{5008}}` port ex: 5008

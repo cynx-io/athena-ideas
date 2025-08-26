@@ -1,7 +1,7 @@
 package app
 
 import (
-	"github.com/cynx-io/micro-name/internal/service/exampleservice"
+	"github.com/cynx-io/athena-ideas/internal/service/exampleservice"
 )
 
 type Services struct {

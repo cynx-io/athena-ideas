@@ -11,7 +11,7 @@ RUN go mod download
 COPY . .
 
 # Build your binary
-RUN go build -o microname main.go
+RUN go build -o athena main.go
 
 # Final stage
 FROM alpine:latest
@@ -19,14 +19,14 @@ FROM alpine:latest
 WORKDIR /app
 
 # Copy the binary from builder
-COPY --from=builder /app/microname .
+COPY --from=builder /app/athena .
 
 # Copy config and env files if needed
 COPY config.json .
 COPY .env .
 
 # Expose the port your app uses
-EXPOSE 5001
+EXPOSE 5008
 
 # Run the binary
-CMD ["./microname"]
+CMD ["./athena"]

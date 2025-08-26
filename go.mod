@@ -1,4 +1,4 @@
-module github.com/cynx-io/micro-name
+module github.com/cynx-io/athena-ideas
 
 go 1.24.3
 

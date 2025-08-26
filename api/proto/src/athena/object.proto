@@ -2,8 +2,8 @@ syntax = "proto3";
 
 import "google/protobuf/timestamp.proto";
 
-package microname;
+package athena;
 
-option go_package = "microname/api/proto";
+option go_package = "athena/api/proto";
 
 import "core.proto";

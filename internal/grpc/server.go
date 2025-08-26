@@ -2,9 +2,9 @@ package grpc
 
 import (
 	"context"
+	"github.com/cynx-io/athena-ideas/internal/app"
+	"github.com/cynx-io/athena-ideas/internal/dependencies/config"
 	"github.com/cynx-io/cynx-core/src/logger"
-	"github.com/cynx-io/micro-name/internal/app"
-	"github.com/cynx-io/micro-name/internal/dependencies/config"
 	"golang.org/x/sync/errgroup"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/reflection"
